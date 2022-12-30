@@ -1,3 +1,20 @@
+
+::-webkit-scrollbar{
+  width: 1em;
+}
+::-webkit-scrollbar-track{
+  background: #0b0b0d49;
+  border-radius: 100vw;
+  margin-top: .5em;
+}
+::-webkit-scrollbar-thumb{
+  background: #FFDB2C;
+  border: .20em solid #0b0b0d;
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #f7dc57;
+}
 html {
   font-family: 'Changa', sans-serif;
   -ms-text-size-adjust: 100%;
